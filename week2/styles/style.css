@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(52, 211, 38);
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#home {
+    background-color: #f9f9f9;
+}
+
+#about {
+    background-color: #e6f7ff;
+}
+
+#contact {
+    background-color: #ffe6e6;
+}
+
+/* Text Styling */
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
